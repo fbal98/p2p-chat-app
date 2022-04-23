@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import {
   Button,
   SafeAreaView,
@@ -6,11 +6,19 @@ import {
   StyleSheet,
   View,
 } from "react-native";
+import Peer from "react-native-peerjs";
 import { mediaDevices, RTCView } from "react-native-webrtc";
 
 function App() {
   const [stream, setStream] = useState(null);
+  useEffect(() => {
+    const localPeer = new Peer();
+    localPeer.on("error", console.log);
 
+    localPeer.on("open", (localPeerId) => {
+      console.log(localPeerId);
+    });
+  }, []);
   const start = async () => {
     console.log("start");
     if (!stream) {

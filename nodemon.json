@@ -1,0 +1,4 @@
+{
+  "ignore": ["services/*.js", "services/**/*.js"],
+  "watch": ["server.js", "serverRoutes.js"]
+}

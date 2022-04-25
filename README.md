@@ -1,10 +1,14 @@
 # 💁🏻‍♂️ about 
 This is a project for my advanced networking class. I used peer to peer networking in order to build a decenteralized chating app without any centeral servers or databases. There is a single signaling server instance which serves only one purpose; connecting peers together. once the connection has been established the server can be shut down and the connection will hold.
 
-# ⏯ How to run 
+# ⏯ How to run frontend
 1. clone the repo 
 2. run `npm i`
 3. run `expo run:ios` or `expo run:android`
+
+# ⏯ How to run backend
+1. `nodemon server.js` or `node server.js`
+
 
 # 📝 Notes 
 1. This in theory can be run on both platforms but only tested on ios.

@@ -1,30 +1,15 @@
-# WebRTC Example
+# 💁🏻‍♂️ about 
+This is a project for my advanced networking class. I used peer to peer networking in order to build a decenteralized chating app without any centeral servers or databases. There is a single signaling server instance which serves only one purpose; connecting peers together. once the connection has been established the server can be shut down and the connection will hold.
 
-![Supports iOS](https://img.shields.io/badge/iOS-000.svg?style=flat-square&logo=APPLE&labelColor=999999&logoColor=fff)
-![Supports Android](https://img.shields.io/badge/Android-000.svg?style=flat-square&logo=ANDROID&labelColor=A4C639&logoColor=fff)
+# ⏯ How to run 
+1. clone the repo 
+2. run `npm i`
+3. run `expo run:ios` or `expo run:android`
 
-Use `react-native-webrtc` in a custom [Expo Dev Client](https://docs.expo.dev/clients/introduction/) (not available in Expo Go).
+# 📝 Notes 
+1. This in theory can be run on both platforms but only tested on ios.
+2. The code needs a lot of cleaning on documenting (that is an issue for another time 😤)
 
-## 🚀 How to use
+# ScreenShots 
 
-```sh
-npx create-react-native-app -t with-webrtc
-```
-
-## ☁️ Build in the cloud
-
-- [Building with EAS](https://docs.expo.dev/eas/)
-
-## 🏃 How to build and run locally
-
-- [Setup development Environment](https://reactnative.dev/docs/environment-setup)
-- 🍎 Build/Run on iOS `yarn ios`.
-  - WebRTC doesn't work in the iOS Simulator since there is no camera. Run `expo run:ios -d` to select a connected iOS device.
-- 🤖 Build/Run on Android `yarn android`.
-
-## 📝 Notes
-
-- [React Native WebRTC](https://github.com/react-native-webrtc/)
-- [Expo Config Plugin: WebRTC](https://github.com/expo/config-plugins/tree/master/packages/react-native-webrtc)
-- [Expo Development Client docs](https://docs.expo.dev/clients/introduction/)
-- [Building with EAS](https://docs.expo.dev/eas/)
+![ezgif-5-b56dab2fd7](https://user-images.githubusercontent.com/55301529/165041536-d0e67e7f-d07b-4e07-b89f-5b300a5bd070.gif)

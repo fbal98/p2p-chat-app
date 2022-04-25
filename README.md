@@ -14,6 +14,10 @@ This is a project for my advanced networking class. I used peer to peer networki
 1. This in theory can be run on both platforms but only tested on ios.
 2. The code needs a lot of cleaning on documenting (that is an issue for another time 😤)
 
+# 👨🏻‍💻 Structure 
+![Image 4-25-22 at 3 54 AM](https://user-images.githubusercontent.com/55301529/165044824-c767fe8f-f1f5-4b4f-9e64-cabc3e639afc.jpg)
+
+
 # ScreenShots 
 
 ![ezgif-5-b56dab2fd7](https://user-images.githubusercontent.com/55301529/165041536-d0e67e7f-d07b-4e07-b89f-5b300a5bd070.gif)
